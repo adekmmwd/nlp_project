@@ -1,0 +1,98 @@
+[
+  {
+    "model": "legal_bert_109m_trained",
+    "family": "legal_bert",
+    "param_size": "109M",
+    "training_status": "trained",
+    "samples": 1974,
+    "accuracy": 0.9260385005065856,
+    "precision": 0.9359190556492412,
+    "recall": 0.8371040723981901,
+    "f1": 0.8837579617834395,
+    "roc_auc": 0.9790558598608134
+  },
+  {
+    "model": "legal_bert_57m_trained",
+    "family": "legal_bert",
+    "param_size": "57M",
+    "training_status": "trained",
+    "samples": 1974,
+    "accuracy": 0.9204660587639311,
+    "precision": 0.891640866873065,
+    "recall": 0.8687782805429864,
+    "f1": 0.880061115355233,
+    "roc_auc": 0.976914218131071
+  },
+  {
+    "model": "gru",
+    "family": "gru",
+    "param_size": "n/a",
+    "training_status": "unknown",
+    "samples": 1754,
+    "accuracy": 0.8854047890535918,
+    "precision": 0.8181818181818182,
+    "recall": 0.8959276018099548,
+    "f1": 0.8552915766738661,
+    "roc_auc": 0.9563230213470144
+  },
+  {
+    "model": "bert_109m_trained",
+    "family": "bert",
+    "param_size": "109M",
+    "training_status": "trained",
+    "samples": 1974,
+    "accuracy": 0.8991894630192503,
+    "precision": 0.8515151515151516,
+    "recall": 0.8476621417797888,
+    "f1": 0.8495842781557067,
+    "roc_auc": 0.9672656130456642
+  },
+  {
+    "model": "lstm",
+    "family": "lstm",
+    "param_size": "n/a",
+    "training_status": "unknown",
+    "samples": 1754,
+    "accuracy": 0.8797035347776511,
+    "precision": 0.8174157303370787,
+    "recall": 0.8778280542986425,
+    "f1": 0.8465454545454546,
+    "roc_auc": 0.956890533129278
+  },
+  {
+    "model": "bert_57m_trained",
+    "family": "bert",
+    "param_size": "57M",
+    "training_status": "trained",
+    "samples": 1974,
+    "accuracy": 0.8961499493414387,
+    "precision": 0.865814696485623,
+    "recall": 0.8174962292609351,
+    "f1": 0.8409619860356866,
+    "roc_auc": 0.9663354398850428
+  },
+  {
+    "model": "bert_base_untrained",
+    "family": "bert",
+    "param_size": "base",
+    "training_status": "untrained",
+    "samples": 1974,
+    "accuracy": 0.34802431610942247,
+    "precision": 0.3204833141542002,
+    "recall": 0.8401206636500754,
+    "f1": 0.46397334443981675,
+    "roc_auc": 0.504994287804895
+  },
+  {
+    "model": "legal_bert_base_untrained",
+    "family": "legal_bert",
+    "param_size": "base",
+    "training_status": "untrained",
+    "samples": 1974,
+    "accuracy": 0.5309017223910841,
+    "precision": 0.26559714795008915,
+    "recall": 0.22473604826546004,
+    "f1": 0.2434640522875817,
+    "roc_auc": 0.44015138179897906
+  }
+]

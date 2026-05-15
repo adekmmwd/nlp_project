@@ -1,0 +1,18 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Large ML Models (Crucial for your 3.3G models folder)
+models/
+*.pth
+*.bin
+*.onnx
+
+# Data and Results
+predictions/
+cuad_pdfs/
+# Ignore all images
+*.png
+*.pdf
+# Except those in the results directory
+!results/*.png

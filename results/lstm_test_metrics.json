@@ -1,0 +1,11 @@
+{
+  "model": "lstm",
+  "best_epoch": 11,
+  "val_f1": 0.8721,
+  "test_loss": 0.4813,
+  "test_accuracy": 0.8797,
+  "test_precision": 0.8174,
+  "test_recall": 0.8778,
+  "test_f1": 0.8465,
+  "test_roc_auc": 0.9569
+}
